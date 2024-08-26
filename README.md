@@ -2,23 +2,15 @@
 
 
 Official code repository for EUSIPCO 2024 paper 
-"[FICUS: Few-shot Image Classification with Unsupervised object Segmentation](https://.pdf)". 
+"[FICUS: Few-shot Image Classification with Unsupervised object Segmentation](https://imt-atlantique.hal.science/hal-04645169/)". 
 
-The paper is available at [https:/lien eusipco.pdf](https://.pdf).
 
-[IMT Atlantique](https://www.imt-atlantique.fr/en) 
+[IMT Atlantique](https://www.imt-atlantique.fr/en):
 Jonathan Lys, Frédéric Lin, Clément Beliveau, Jules Decaestecker 
-[Lab-STICC](https://www.imt-atlantique.fr/fr/recherche-innovation/communaute-scientifique/organismes-nationaux/lab-sticc)
+
+[Lab-STICC](https://www.imt-atlantique.fr/fr/recherche-innovation/communaute-scientifique/organismes-nationaux/lab-sticc):
 Yassir Bendou, Aymane Abdali,Bastien Pasdeloup
 
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg?style=flat-square)](https://github.com/ambv/black)
-[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
-[![PyPI pyversions](https://img.shields.io/pypi/pyversions/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
-<CENTER>
-<img
-src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Logo_IMT_Atlantique.svg/1200px-Logo_IMT_Atlantique.svg.png"
-WIDTH=300 HEIGHT=200>
-</CENTER>
 
 This repository contains the code for out of the box ready to use few-shot classifier for ambiguous images. In this paper we have shown that removing the ambiguity from the the query during few shot classification improves performances. To do so we use a combination of foundation models and spectral methods. 
 ## Installation 🛠 
@@ -57,7 +49,7 @@ WIDTH=100%>
 
 ### Dataset 
 
-For all our experiments we have used three datasets  : ImageNet , Pascal Voc and Cub
+For all our experiments we have used three datasets  : ImageNet , Pascal Voc and CUB
 
 ### Models 
 
@@ -93,5 +85,10 @@ WIDTH=80%>
 If you find our paper or code repository helpful, please consider citing as follows:
 
 ```
-bibtex
+@INPROCEEDINGS{lys_ficus_2024,
+  author = {Jonathan Lys and Frédéric Lin and Clément Béliveau and Jules Decaestecker and Yassir Bendou and Aymane Abdali and Bastien Pasdeloup},
+  title = {FICUS: FEW-SHOT IMAGE CLASSIFICATION WITH UNSUPERVISED SEGMENTATION},
+  booktitle = {2024 32nd European Signal Processing Conference (EUSIPCO)},
+  year = {2024},
+}
 ```
