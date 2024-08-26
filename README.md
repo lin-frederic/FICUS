@@ -18,7 +18,7 @@ This repository contains the code for out of the box ready to use few-shot class
 ### Conda venv
 
 ```[bash]
-   git clone https://github.com/NewS0ul/FICUS.git
+   git clone https://github.com/lin-frederic/FICUS.git
    cd 
    python3 -m venv ~//venvFicus
    source ~/venvFicus/bin/activate
@@ -27,7 +27,7 @@ This repository contains the code for out of the box ready to use few-shot class
 ### Conda env 
 
 ```[bash]
-   git clone https://github.com/NewS0ul/FICUS.git
+   git clone https://github.com/lin-frederic/FICUS.git
    cd 
    conda create -n Ficus python=3.9
    conda activate Ficus
